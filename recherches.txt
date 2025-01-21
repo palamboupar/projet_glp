@@ -1,1 +1,25 @@
 jeu rpg
+sujet:
+donjon a plusieurs niveaux
+monstres
+trésors
+magasins
+gestion des:
+  -combats
+  -équipements
+  -ataque/défense
+  -sorts
+  -missions principales/secondaires
+
+
+
+solo
+joueur avec une classe parmi plusieurs
+guerier, mage, archer, paladin, ...
+designs de decors, presonages, enemis, equipements ....
+tuer un enemi -> xp+or+item
+finir une quete -> xp+or+item
+systeme de: 
+  -niveau
+  -vie
+  -mana
