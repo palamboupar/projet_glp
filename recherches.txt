@@ -12,26 +12,10 @@ gestion des:
   -missions principales/secondaires
 
 
-
-solo
-joueur avec une classe parmi plusieurs
-guerier, mage, archer, paladin, ...
-pnj(quetes, marchants)
-systeme de commerce
-designs de decors, presonages, enemis, equipements ....
-tuer un enemi -> xp+or+item
-finir une quete -> xp+or+item
-systeme de: 
-  -niveau (=compétence)
-  -vie
-  -mana
-  -missions
-
-
-
-
 temps réel
 vue du dessus 2D
+mini-map
+mort = recommencer au début,
 3 niveaux:
   -(grottes?, forteresse?)
   -map fixée ou aléatoire?
@@ -44,27 +28,33 @@ dans chaques niveau:
   premier niveau(mort vivants,foret)
     -slime
     -zombie
-    -
+    -fantome
   deuxieme niveau(feu)
     -esprit de feu
-    -
-    -
+    -salamandre de feu
+    -squeletes de feu
   troisieme niveau(glace)
     -esprit de glace
-    -
-    -
+    -pieuvre de glace
+    -golem de glace
   -boss
-    -1 goleme de pierre
-    -2 dragon de feu
-    -3 
+    -1 golem de pierre
+    -2 cerbere
+    -3 roi des glace (nom a trouver)
   -coffres
   -magasins(pnj)
   -positions aléatoire des enemies et du magasin 
 3 classes:
   -guerrier(grande force, moyenne magie, faible défense)
-  -mage    (faible force, grande magie, moyenne défense)
+  -mage    (faible force, grande magie, moyenne défense) choix de deux types de magie en début de partie
   -assassin(moyenne force, faible magie, grande défense)
+systeme de niveaux/compétence:
+  -sorts et équipement/armes dépendant du niveau
+  -montée de niveau xp des monstres/missions
+  -choix d'augmenter les stats de force magie ou resistance
+  -
 équipement:
+attribuer des niveaux
   - casque
   - plastron
   - pantalon
@@ -73,7 +63,9 @@ dans chaques niveau:
   - robe de mage
   - capuche
   - cuirasse
+  -ajouter plus
 armes:
+attribuer des niveaux
   - épée
   - baton de mage 
   - katana
@@ -82,19 +74,23 @@ armes:
   - shuriken
   -
   -
+  -ajouter plus
 sorts(3 grand types):
   -feu:
     - boule de feu (niveau 1)
-    - explosion (niveau 2)
-    - zone de feu (niveau 3)
+    - explosion (niveau 3)
+    - zone de feu (niveau 5)
+    - eruption volcanique (niveau 10)
   -eau:
     - eclats de glace (niveau 1)
-    - gel (niveau 2)
-    - tornade (niveau 3)
+    - gel (niveau 3)
+    - tornade (niveau 5)
+    - avalanche (niveau 10)
   -soins:
     - soin mineur (niveau 1)
-    - soin majeur (niveau 2)
-    - invincibilité temporaire (niveau 3)
+    - soin majeur (niveau 3)
+    - invincibilité temporaire (niveau 5)
+    - seconde chance (une fois par etage) (niveau 10)
 items:
   -potion de soin
   -potion d'invisibilité
