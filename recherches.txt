@@ -45,7 +45,7 @@ dans chaques niveau:
   -magasins(pnj)
   -positions aléatoire des enemies et du magasin 
 3 classes:
-  -guerrier(grande force, moyenne magie, faible défense)
+  -guerrier(grande force, moyenne magie, faible défense) choix d'un type de magie
   -mage    (faible force, grande magie, moyenne défense) choix de deux types de magie en début de partie
   -assassin(moyenne force, faible magie, grande défense)
 systeme de niveaux/compétence:
@@ -97,4 +97,4 @@ items:
   -potion d'ataque
   -potion de défense
   -potion de mana
-  -potion de vitesse
+  -potion d'endurence
