@@ -16,10 +16,89 @@ gestion des:
 solo
 joueur avec une classe parmi plusieurs
 guerier, mage, archer, paladin, ...
+pnj(quetes, marchants)
+systeme de commerce
 designs de decors, presonages, enemis, equipements ....
 tuer un enemi -> xp+or+item
 finir une quete -> xp+or+item
 systeme de: 
-  -niveau
+  -niveau (=compétence)
   -vie
   -mana
+  -missions
+
+
+
+
+temps réel
+vue du dessus 2D
+3 niveaux:
+  -(grottes?, forteresse?)
+  -map fixée ou aléatoire?
+  -1er plus petit
+  -2eme moyen
+  -3eme grand
+dans chaques niveau:
+  -obstacles
+  -enemies:
+  premier niveau(mort vivants,foret)
+    -slime
+    -zombie
+    -
+  deuxieme niveau(feu)
+    -esprit de feu
+    -
+    -
+  troisieme niveau(glace)
+    -esprit de glace
+    -
+    -
+  -boss
+    -1 goleme de pierre
+    -2 dragon de feu
+    -3 
+  -coffres
+  -magasins(pnj)
+  -positions aléatoire des enemies et du magasin 
+3 classes:
+  -guerrier(grande force, moyenne magie, faible défense)
+  -mage    (faible force, grande magie, moyenne défense)
+  -assassin(moyenne force, faible magie, grande défense)
+équipement:
+  - casque
+  - plastron
+  - pantalon
+  - botes
+  - chapeau de mage
+  - robe de mage
+  - capuche
+  - cuirasse
+armes:
+  - épée
+  - baton de mage 
+  - katana
+  - hache de guerre
+  - dague
+  - shuriken
+  -
+  -
+sorts(3 grand types):
+  -feu:
+    - boule de feu (niveau 1)
+    - explosion (niveau 2)
+    - zone de feu (niveau 3)
+  -eau:
+    - eclats de glace (niveau 1)
+    - gel (niveau 2)
+    - tornade (niveau 3)
+  -soins:
+    - soin mineur (niveau 1)
+    - soin majeur (niveau 2)
+    - invincibilité temporaire (niveau 3)
+items:
+  -potion de soin
+  -potion d'invisibilité
+  -potion d'ataque
+  -potion de défense
+  -potion de mana
+  -potion de vitesse
