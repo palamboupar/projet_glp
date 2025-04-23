@@ -37,11 +37,6 @@ Assurez-vous d'exécuter la commande depuis le répertoire `src/` contenant les 
 | Attaquer / Interagir        | Clic gauche                  |
 | Utiliser un objet / Ouvrir  | Clic gauche                  |
 
-## 📸 Captures d'écran
-
-<img src="captures/selection_classe.png" width="400" alt="Sélection de classe">
-<img src="captures/exploration_donjon.png" width="500" alt="Exploration de donjon">
-
 ## 👥 Équipe projet
 
 - **Ali Bouchelaghem** – Rapport, sprites, tests, documentation
