@@ -1,4 +1,4 @@
-# 🎮 RPG Dungeon - Projet de Génie Logiciel
+# 🎮 RPG - Projet de Génie Logiciel
 
 Ce projet est un jeu vidéo de rôle (RPG) en 2D, développé en Java dans le cadre d’un projet universitaire de Génie Logiciel. Le joueur y incarne un héros explorant trois donjons générés aléatoirement, affrontant des ennemis et progressant à travers différentes classes, équipements et compétences.
 
